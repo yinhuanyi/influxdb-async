@@ -22,21 +22,21 @@ with open("README.md", "r") as f:
   long_description = f.read()
 
 setup(
-    name = 'influxdb-async',
-    author = 'Robby',
-    author_email = 'yinhuanyicn@gmail.com',
-    url = 'https://github.com/yinhuanyi/zabbix-feishu-alert',
-    license = "MIT",
-    version = '1.0.1',
-    description = 'async multi fields to influxdb',
-    long_description = long_description,
-    long_description_content_type = "text/markdown",
-    packages = [
+    name='influxdb-async',
+    author='Robby',
+    author_email='yinhuanyicn@gmail.com',
+    url='https://github.com/yinhuanyi/zabbix-feishu-alert',
+    license="MIT",
+    version='1.0.1',
+    description='async multi fields to influxdb',
+    long_description=long_description,
+    long_description_content_type="text/markdown",
+    packages=[
         'influxdb_async',
     ],
-    install_requires = [
+    install_requires=[
         'influxdb',
     ],
-    dependency_links = [],
-    package_data = package_data("influxdb_async",),
+    dependency_links=[],
+    package_data=package_data("influxdb_async",),
 )
