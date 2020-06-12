@@ -71,16 +71,6 @@ class InfluxdbMultiFieldsAsync(Thread):
             raise Exception(e)
 
 
-if __name__ == '__main__':
-    with InfluxdbMultiFieldsAsync('10.102.0.1',
-                                  8086,
-                                  'iotest',
-                                  'test',
-                                  {"host": "server1", "dev": "sda"},
-                                  [{"value": 1}, {"value": 2}, {"value": 3}]) as influxdb:
-        influxdb.start()
-
-
 
 
 

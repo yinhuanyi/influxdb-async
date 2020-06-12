@@ -27,8 +27,8 @@ setup(
     author_email = 'yinhuanyicn@gmail.com',
     url = 'https://github.com/yinhuanyi/zabbix-feishu-alert',
     license = "MIT",
-    version = '1.0.0',
-    description = 'async data to influxdb',
+    version = '1.0.1',
+    description = 'async multi fields to influxdb',
     long_description = long_description,
     long_description_content_type = "text/markdown",
     packages = [
