@@ -34,7 +34,7 @@ class InfluxdbMultiFieldsAsync(Thread):
     def __exit__(self, exc_type, exc_val, exc_tb):
         self.influxdb_connect.close()
 
-    def __json_data(self, fields: dict):
+    def __json_data(self, fields):
         """
         :return:
         json_body = [
