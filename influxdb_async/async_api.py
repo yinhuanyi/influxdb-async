@@ -12,7 +12,7 @@ from influxdb import InfluxDBClient
 
 class InfluxdbMultiFieldsAsync(Thread):
 
-    def __init__(self, host, port, database, measurement, tags: dict, fields_list: list, username=None, password=None):
+    def __init__(self, host, port, database, measurement, tags, fields_list, username=None, password=None):
         self.host = host
         self.port = port
         self.database = database
