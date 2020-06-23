@@ -18,7 +18,7 @@ def package_data(pkg, roots=tuple()):
                 data.append(os.path.relpath(os.path.join(dirname, fname), pkg))
     return {pkg: data}
 
-with open("README.md", "r") as f:
+with open("README.rst", "r") as f:
   long_description = f.read()
 
 setup(
@@ -30,7 +30,7 @@ setup(
     version='1.0.2',
     description='async multi fields to influxdb',
     long_description=long_description,
-    long_description_content_type="text/markdown",
+    # long_description_content_type="text/markdown",
     packages=[
         'influxdb_async',
     ],
