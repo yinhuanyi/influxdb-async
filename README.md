@@ -12,7 +12,7 @@ pip install influxdb-async
 - 从 Github 安装
 
 ```
-pip isntall git+https://github.com/yinhuanyi/influxdb-async.git
+pip install git+https://github.com/yinhuanyi/influxdb-async.git
 ```
 
 > **`(二)：使用方法`**
